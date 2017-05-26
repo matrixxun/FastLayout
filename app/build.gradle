@@ -3,8 +3,8 @@ apply plugin: 'com.neenbedankt.android-apt'
 //apply plugin: 'fastlayout'
 
 android {
-    compileSdkVersion 'android-N'
-    buildToolsVersion "24-rc4"
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
 
     defaultConfig {
         applicationId "io.fabianterhorst.fastlayout.sample"
